@@ -4,7 +4,7 @@
 Build a machine learning model to perform **binary classification** based on a real dataset. Project done in python on jupyter notebook.
 
 ## Pipeline Overview
-1. **Data Import** 
+1. **Data Import** : not included
 2. **Exploratory Data Analysis (EDA)**  
    - Check for missing values  
    - Analyze variable distributions  
@@ -20,7 +20,7 @@ Build a machine learning model to perform **binary classification** based on a r
    - Accuracy, Precision, Recall, F1-score  
    - Classification report  
    - Confusion matrix
-6. **Model deployment**
+6. **Model Deployment** : not included
 
 ## Notes
 - Class `0` represents *healthy*, class `1` represents *sick*  
