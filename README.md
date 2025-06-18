@@ -1,1 +1,29 @@
 # Classification-ML-Mini-project
+
+## Objective
+Build a machine learning pipeline to perform **binary classification** based on a real dataset.
+
+## Pipeline Overview
+1. **Data Import** 📥  
+2. **Exploratory Data Analysis (EDA)**  
+   - Check for missing values  
+   - Analyze variable distributions  
+   - Compute correlation matrix  
+3. **Data Preprocessing**  
+   - Standardization (scaling)  
+   - Train/Test split  
+4. **Model Training** 
+   - Logistic Regression  
+   - Decision Tree  
+   - Random Forest  
+5. **Model Evaluation** 
+   - Accuracy, Precision, Recall, F1-score  
+   - Classification report  
+   - Confusion matrix  
+
+## Notes
+- Class `0` represents *healthy*, class `1` represents *sick*  
+- The original multi-class problem was simplified into a binary classification task
+
+## Results
+All models were trained and evaluated to identify the best-performing one for this classification task.
