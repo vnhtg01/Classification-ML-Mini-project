@@ -24,7 +24,6 @@ Build a machine learning model to perform **binary classification** based on a r
 
 ## Notes
 - Class `0` represents *healthy*, class `1` represents *sick*  
-- The original multi-class problem was simplified into a binary classification task
 
 ## Results
 All models were trained and evaluated to identify the best-performing one for this classification task.
