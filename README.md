@@ -5,10 +5,11 @@ Build a machine learning model to perform **binary classification** based on a r
 
 ## Pipeline Overview
 1. **Data Import** : not included
-2. **Exploratory Data Analysis (EDA)**  
+2. **Exploratory Data Analysis (EDA) & Data Visualization**  
    - Check for missing values  
    - Analyze variable distributions  
-   - Compute correlation matrix  
+   - Compute correlation matrix
+   - Create a report of dataset from ydata_profiling
 3. **Data Preprocessing**  
    - Standardization (scaling)  
    - Train/Test split  
