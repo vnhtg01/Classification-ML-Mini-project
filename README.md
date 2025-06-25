@@ -44,11 +44,17 @@ Build a machine learning model to perform **binary classification** based on a r
 ![image](https://github.com/user-attachments/assets/23f2357e-d351-4aab-9592-a5c27f9eeeab)
 
 
-## The file summarizing the prediction models includes the Accuracy parameters, F1 score and prediction execution time based on this dataset.
+## The file summarizing the prediction models includes the Accuracy parameters, F1 score and prediction execution time based on this dataset. 
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/458625b2-9f48-4e81-b4ca-d6b8c4fe6075" />
+#### This list of trained models sorted by fast execution time and high A-parameter
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/7f134811-e15f-4d95-9d74-06fbb6bcd1e0" />
 
 
+
+#### Top 5 as horizontal bar chart
+
+![image](https://github.com/user-attachments/assets/1cb31c8e-488d-461e-8547-82eabf3ffd1d)
 
 
 
