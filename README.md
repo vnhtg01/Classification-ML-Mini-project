@@ -44,6 +44,9 @@ Build a machine learning model to perform **binary classification** based on a r
 ![image](https://github.com/user-attachments/assets/23f2357e-d351-4aab-9592-a5c27f9eeeab)
 
 
+## The file summarizing the prediction models includes the Accuracy parameters, F1 score and prediction execution time based on this dataset.
+<img width="331" alt="image" src="https://github.com/user-attachments/assets/458625b2-9f48-4e81-b4ca-d6b8c4fe6075" />
+
 
 
 
