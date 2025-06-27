@@ -1,7 +1,7 @@
 # Classification-ML-Mini-project
 
 ## Objective
-Build a machine learning model to perform **binary classification** based on a real dataset. Project done in python on jupyter notebook.
+Build a machine learning model to perform **binary classification** based on a real dataset from Kaggle. Project done in python on jupyter notebook.
 
 ## Pipeline Overview
 1. **Data Import** : not included
