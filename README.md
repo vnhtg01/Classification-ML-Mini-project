@@ -1,3 +1,10 @@
+
+<img width="851" alt="image" src="https://github.com/user-attachments/assets/4e6c3b06-e9e9-4fd6-942a-f5639d8a0ca4" />
+
+
+
+
+
 # ML Classification Project For Diabetes Prediction
 
 ## A. Objective
