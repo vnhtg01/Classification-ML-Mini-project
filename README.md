@@ -1,9 +1,10 @@
-# Classification-ML-Mini-project
+# ML Classification Project For Diabetes Prediction
 
-## Objective
+## A. Objective
 Build a machine learning model to perform **binary classification** based on a real dataset from Kaggle. Project done in python on jupyter notebook.
+#### Notes : Class `0` represents *healthy*, class `1` represents *sick*  
 
-## Pipeline Overview
+## B. Pipeline Overview
 1. **Data Import** : not included
 2. **Exploratory Data Analysis (EDA) & Data Visualization**  
    - Check for missing values  
@@ -11,19 +12,21 @@ Build a machine learning model to perform **binary classification** based on a r
    - Compute correlation matrix
    - Create a report of dataset from ydata_profiling
 3. **Data Preprocessing**  
-   - Standardization (scaling)  
-   - Train/Test split  
+   - Standardization (scaling)
+   - Train/Test split
+   - (Bonus) GridSearchCV to find the best hyperparameter
 4. **Model Training** 
    - Logistic Regression  
    - Decision Tree  
-   - Random Forest  
+   - Random Forest
+   - (Bonus) LazyPredict to show performances of 30-40 differents models
 5. **Model Evaluation** 
    - Accuracy, Precision, Recall, F1-score  
    - Classification report  
    - Confusion matrix
 6. **Model Deployment** : not included
 
-## Report File extracted by ydata_profiling
+## C. Report File extracted by ydata_profiling
 
 ![image](https://github.com/user-attachments/assets/0d9e51ca-5ba6-4fcf-b06b-17b0a6ac4069)
 ![image](https://github.com/user-attachments/assets/479b9973-3245-40c8-9a68-8e0fab7e87a1)
@@ -44,27 +47,17 @@ Build a machine learning model to perform **binary classification** based on a r
 ![image](https://github.com/user-attachments/assets/23f2357e-d351-4aab-9592-a5c27f9eeeab)
 
 
-## The file summarizing the prediction models includes the Accuracy parameters, F1 score and prediction execution time based on this dataset. 
+## D. The file summarizing the prediction models includes the Accuracy, F1 score and Time Taken parameters and prediction execution time based on this dataset. 
 
-#### This list of trained models sorted by fast execution time and high A-parameter
+#### D.1. This list of trained models sorted by fast execution time and high A-parameter
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/7f134811-e15f-4d95-9d74-06fbb6bcd1e0" />
-
-
-
-#### Top 5 as horizontal bar chart
-
-![image](https://github.com/user-attachments/assets/1cb31c8e-488d-461e-8547-82eabf3ffd1d)
+![image](https://github.com/user-attachments/assets/c9f57597-cf36-4983-b4b3-ac684d975bdb)
 
 
+#### D.2. Top 5 as horizontal bar chart
 
+![image](https://github.com/user-attachments/assets/6fdd69b0-aae6-4fe0-843e-fdc674067ba0)
 
-
-
-
-
-## Notes
-- Class `0` represents *healthy*, class `1` represents *sick*  
-
-## Results
-All models were trained and evaluated to identify the best-performing one for this classification task.
+## E. Results
+- All models were trained and evaluated to identify the best-performing one for this classification task.
+- Reusability on other datasets thanks to calling the pickle library to store the models.
