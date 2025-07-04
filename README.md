@@ -2,17 +2,33 @@
 <img width="851" alt="image" src="https://github.com/user-attachments/assets/4e6c3b06-e9e9-4fd6-942a-f5639d8a0ca4" />
 
 
+<h1 align="center">ML Classification Project For Diabetes Prediction</h1>
+<h4><u>Objective :</u></h4> 
+Build a machine learning model to perform <b>Binary Classification</b> based on a real dataset from Kaggle. Project done in python on jupyter notebook.
 
+<h4><u>Notes :</u></h4> 
 
+Class `0` represents *healthy*, class `1` represents *sick*  
 
-# ML Classification Project For Diabetes Prediction
+# Table of Contents
 
-## A. Objective
-Build a machine learning model to perform **binary classification** based on a real dataset from Kaggle. Project done in python on jupyter notebook.
-#### Notes : Class `0` represents *healthy*, class `1` represents *sick*  
+- [A. Pipeline Overview](#apipeline-overview)
+  - [A.1. Data Import](#a1-data-import--from-kaggle)
+  - [A.2. Exploratory Data Analysis (EDA) & Data Visualization](#a2-exploratory-data-analysis-eda--data-visualization)
+  - [A.3. Data Preprocessing](#a3-data-preprocessing)
+  - [A.5. Model Training](#a5-model-training)
+  - [A.6. Model Evaluation](#a6-model-evaluation)
+  - [A.7. Model Deployment](#a7-model-deployment--not-included)
+- [B. Report File extracted by ydata-profiling](#breport-file-extracted-by-ydata-profiling)
+- [C. Prediction Model Summary](#c-the-file-summarizing-the-prediction-models-includes-the-accuracy-f1-score-and-time-taken-parameters-and-prediction-execution-time-based-on-this-dataset)
+  - [C.1. Models sorted by speed and accuracy](#c1-this-list-of-trained-models-sorted-by-fast-execution-time-and-high-balanced-accuracy-parameter)
+  - [C.2. Top 5 as horizontal bar charts](#c2-top-5-as-horizontal-bar-charts)
+- [D. Results](#d-results)
 
-## B. Pipeline Overview
-1. **Data Import** : not included
+  
+
+# A.Pipeline-Overview
+1. **Data Import** : from kaggle
 2. **Exploratory Data Analysis (EDA) & Data Visualization**  
    - Check for missing values  
    - Analyze variable distributions  
@@ -22,18 +38,18 @@ Build a machine learning model to perform **binary classification** based on a r
    - Standardization (scaling)
    - Train/Test split
    - (Bonus) GridSearchCV to find the best hyperparameter
-4. **Model Training** 
+5. **Model Training** 
    - Logistic Regression  
    - Decision Tree  
    - Random Forest
    - (Bonus) LazyPredict to show performances of 30-40 differents models
-5. **Model Evaluation** 
+6. **Model Evaluation** 
    - Accuracy, Precision, Recall, F1-score  
    - Classification report  
    - Confusion matrix
-6. **Model Deployment** : not included
+7. **Model Deployment** : not included
 
-## C. Report File extracted by ydata_profiling
+# B.Report-File-extracted-by-ydata-profiling
 
 ![image](https://github.com/user-attachments/assets/0d9e51ca-5ba6-4fcf-b06b-17b0a6ac4069)
 ![image](https://github.com/user-attachments/assets/479b9973-3245-40c8-9a68-8e0fab7e87a1)
@@ -54,17 +70,17 @@ Build a machine learning model to perform **binary classification** based on a r
 ![image](https://github.com/user-attachments/assets/23f2357e-d351-4aab-9592-a5c27f9eeeab)
 
 
-## D. The file summarizing the prediction models includes the Accuracy, F1 score and Time Taken parameters and prediction execution time based on this dataset. 
+# C. The file summarizing the prediction models includes the Accuracy, F1 score and Time Taken parameters and prediction execution time based on this dataset. 
 
-#### D.1. This list of trained models sorted by fast execution time and high A-parameter
+#### C.1. This list of trained models sorted by fast execution time and high Balanced-Accuracy parameter
 
 ![image](https://github.com/user-attachments/assets/c9f57597-cf36-4983-b4b3-ac684d975bdb)
 
 
-#### D.2. Top 5 as horizontal bar chart
+#### C.2. Top 5 as horizontal bar charts
 
 ![image](https://github.com/user-attachments/assets/6fdd69b0-aae6-4fe0-843e-fdc674067ba0)
 
-## E. Results
+# D. Results
 - All models were trained and evaluated to identify the best-performing one for this classification task.
 - Reusability on other datasets thanks to calling the pickle library to store the models.
